@@ -26,7 +26,7 @@ protocol="UDP"				  	# Enter the protocol name
 #-------------------------------------------
 ddns=$(curl -ks "$url") #> /dev/null 				   			              	# Update the IP address to the DDNS
 upnp=$(upnpc -e '"$comment"' -r "$port" "protocol") #> /dev/null    # Open the UPnP port for access
-timestamp=$(date +%Y-%m-%d__%H-%M-%S)                              # Timestamp for the log file
+timestamp=$(date +%Y-%m-%d__%H-%M-%S)                               # Timestamp for the log file
 
 #echo "URL:      $url"
 #echo "Comment:  $comment"
