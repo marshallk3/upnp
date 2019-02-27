@@ -4,7 +4,8 @@ sudo apt-get install python-miniupnpc
 mkdir upnp-py
 cd upnp-py
 
-wget http://people.ds.cam.ac.uk/ssb22/setup/upnp.tgz
+#wget http://people.ds.cam.ac.uk/ssb22/setup/upnp.tgz
+wget https://github.com/marshallk3/upnp/raw/master/upnp.tgz
 
 tar xvzf upnp.tgz
 
