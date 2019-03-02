@@ -1,4 +1,4 @@
-# upnp
+# UPnP
 A short script that allows users to setup DDNS and UPnP on their Linux machine
 
 In order to run the script you will need to install curl and miniupnpc
